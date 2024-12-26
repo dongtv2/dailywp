@@ -72,7 +72,7 @@ if st.session_state.get("password_correct", False):
     # Define the navigation structure
     pg = st.navigation(
         {
-            "Main Menu": [aclist, mainbase,admin, dailywp]  # Reports section
+            "Main Menu": [dailywp, mainbase,admin]  # Reports section
         }
     )
 

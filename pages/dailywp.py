@@ -24,7 +24,14 @@ df_ac = fetch_ac_data()
 tabs = st.tabs(['Read Flight Plan', 'Flight Plan Cleaned', 'Night stop & Preflight','Export data into AMOS'])
 
 with tabs[0]:
-    st.write('Read flightplan')
+    st.subheader('Read flightplan')
+    st.markdown("""
+    1. MOC AR export flight plan from AIMS. Note: STA,STD in UTC time
+    2. Draft drop 2 files
+    3. Check status. True mean ARR = DEP of next day. False mean wrong
+    4. Export data into AMOS ( csv file)
+    
+    """)
     try:
         col1, col2 = st.columns(2)
 
