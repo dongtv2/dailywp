@@ -82,7 +82,7 @@ soupsieve==2.6
 sphinx-pyproject==0.3.0
 statsmodels==0.14.4
 stevedore==5.4.0
-streamlit==1.33.0
+streamlit==1.41.1
 symengine==0.13.0
 sympy==1.13.3
 tenacity==8.5.0
